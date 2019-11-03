@@ -29,9 +29,3 @@ module YandexTranslateApiGem
     end
   end
 end
-
-# translate = YandexTranslateApiGem::Translate
-# translate.api_key = "trnsl.1.1.20191025T110335Z.4b11526739cc9f02.61937478c797b0f19512e761bc467d4ef9a89d54"
-# translate.default_lang = "default_lang"
-# translate.langs
-# translate.translate('Men', lang: 'fi')
