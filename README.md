@@ -22,10 +22,13 @@ Or install it yourself as:
 
 Create API Key 
 
-    translator.get_api_key('your.key')
+    translator.api_key = 'your key'
 
-### Get api_key from https://translate.yandex.ru/developers/keys.
+Get api_key from https://translate.yandex.ru/developers/keys.
 
+Create default lang
+
+    translator.default_lang = 'default lang'
 
 To get list of possible translation directions use langs method:
 
@@ -34,8 +37,7 @@ To get list of possible translation directions use langs method:
 
 To translate text use translate method:
 
-    translate.translate(text: 'Men', lang: 'fi')
-
+    translator.translate('Men', lang: 'fi')
 
 ## License
 
